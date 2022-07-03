@@ -1,0 +1,35 @@
+@import "card";
+
+.countries{
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    
+    .filter{
+        width: 100%;
+        padding: 20px;
+        background: $dark;
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        .region{
+            margin-left: 30px;
+            
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+    .content{
+        max-width: 100%;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 200px);
+        grid-gap: 5px;
+        justify-content: center;
+    }
+}

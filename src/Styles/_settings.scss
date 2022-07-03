@@ -1,0 +1,24 @@
+$primary: #90A8C3;
+$secondary: #F38375;
+$tertiary: #F7A399;
+$background: #F5F7FA;
+$button-success: #5cb85c;
+$button-danger: #F38375;
+$gray: #F5F7FA;
+$dark: #2F353D;
+$dark-transparent: rgba(47, 51, 61, 0.733);
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+// Formatting
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body{
+    background: $background;
+    font-family: sans-serif, Arial, Helvetica;
+}
